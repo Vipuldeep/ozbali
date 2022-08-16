@@ -29,7 +29,7 @@ function App() {
   </div>
     <div class="col-lg-4 col-md-8 col-sm-12 col-xs-12">
         <p className='maintext'>Website under construction</p>
-        <p>Our Website is currently being build by the experts. We will be published shortly. Thank you for your patience.</p>
+        <p>Our Website is currently being built by the experts. We will be published shortly. Thank you for your patience.</p>
         <p>For enquiries, please contact us by clicking the button below.</p>
         <button onClick={() => window.location = 'mailto: contact@ozbali.com.au'} className='button' Target='_blank'>Get in touch.</button>
         <div class="wrapper">
