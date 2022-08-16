@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dff643a8.css",
+    "main.js": "/static/js/main.d173b9d5.js",
+    "static/js/787.de856704.chunk.js": "/static/js/787.de856704.chunk.js",
+    "static/media/bali.jpg": "/static/media/bali.1afd09c0ff456b2cf859.jpg",
+    "index.html": "/index.html",
+    "main.dff643a8.css.map": "/static/css/main.dff643a8.css.map",
+    "main.d173b9d5.js.map": "/static/js/main.d173b9d5.js.map",
+    "787.de856704.chunk.js.map": "/static/js/787.de856704.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dff643a8.css",
+    "static/js/main.d173b9d5.js"
+  ]
+}

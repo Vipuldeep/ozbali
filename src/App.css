@@ -1,0 +1,81 @@
+.bg {
+  background-color: red;
+}
+
+.header {
+  padding-top: 2%;
+  color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 30px; font-weight: bold; line-height: 1; 
+}
+
+.spanheader {
+  color: rgb(255, 134, 134); font-family: 'Helvetica Neue', sans-serif; font-size: 75px; font-weight: bold; line-height: 1; text-decoration: none !important;
+}
+
+.maintext {
+  font-family: 'Helvetica Neue', sans-serif; font-size: 40px; font-weight: bold; padding-top: 25%; text-decoration-thickness: 2px; text-decoration: underline;
+}
+
+.img-responsive {
+  margin: 0 auto;
+}
+
+:root {
+  --bg: #1a1e24;
+  --color: #eee;
+  --font: Montserrat, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+  padding: 1.5rem 0;
+  filter: url('#goo');
+}
+
+.button {
+  display: inline-block;
+  text-align: center;
+  background: var(--color);
+  color: var(--bg);
+  font-weight: bold;
+  padding: 1.18em 1.32em 1.03em;
+  line-height: 1;
+  border-radius: 1em;
+  position: relative;
+  min-width: 8.23em;
+  text-decoration: none !important;
+  font-family: var(--font);
+  font-size: 1.25rem;
+  border: none !important;
+}
+
+.button:before,
+.button:after {
+  width: 4.4em;
+  height: 2.95em;
+  position: absolute;
+  content: "";
+  display: inline-block;
+  background: var(--color);
+  border-radius: 50%;
+  transition: transform 1s ease;
+  transform: scale(0);
+  z-index: -1;
+}
+
+.button:before {
+  top: -25%;
+  left: 20%;
+}
+
+.button:after {
+  bottom: -25%;
+  right: 20%;
+}
+
+.button:hover:before,
+.button:hover:after {
+  transform: none;
+}
+
+.left {
+  float: right;
+}
