@@ -17,7 +17,7 @@ function App() {
        <h2 className='header'>PT. AUSTRALIA <span className='spanheader'>BALI</span> CONNECTIONS</h2>
        <p>100% Australian Owned Indonesian Company</p>
        <hr className='hrlen'/>
-       <p className='subbanner'>Office | Showroom - open 7 days<br/>
+       <p className='subbanner'>Office | Showroom - Open 7 Days<br/>
        <strong>JL Sriwijaya No. 5 Legian - Opposite MERCURE HOTEL</strong></p>
   </div>
   </div>
@@ -49,7 +49,7 @@ function App() {
   </div>
   <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6"> 
   <img src={bizone} className='img-responsive img-fluid center-block' alt="Logo"/>
-  <p className='text-center'><em><strong>Inspiring destinations - creating memories</strong></em></p>
+  <p className='text-center'><em><strong>Inspiring Destinations - Creating Memories</strong></em></p>
   </div>
     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6"> 
   <img src={biztwo} className='img-responsive img-fluid center-block' alt="Logo"/>
