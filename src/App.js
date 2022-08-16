@@ -1,12 +1,27 @@
 
 import './App.css';
-import bali from './bali.jpg'
+import bali from './bali.jpg';
+import image from './bannerimage.jpg';
+import bizone from  './bizone.jpg';
+import biztwo from './biztwo.jpg';
 
 function App() {
   return (
     <div>
-       <div class="container">
-  <h2 className='header'>OZ Bali<span className='spanheader'>.</span></h2>
+        <div class="container">
+    <div class="row">
+       <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4"> 
+       <img src={image} className='img-responsive img-fluid center-block banner' alt="Logo"/>
+       </div>
+       <div class="col-lg-10 col-md-8 col-sm-8 col-xs-12"> 
+       <h2 className='header'>PT. AUSTRALIA <span className='spanheader'>BALI</span> CONNECTIONS</h2>
+       <p>100% Australian Owned Indonesian Company</p>
+       <hr className='hrlen'/>
+       <p className='subbanner'>Office | Showroom - open 7 days<br/>
+       <strong>JL Sriwijaya No. 5 Legian - Opposite MERCURE HOTEL</strong></p>
+  </div>
+  </div>
+  
   </div>
     <div class="container">
     <div class="row">
@@ -20,15 +35,31 @@ function App() {
         <div class="wrapper">
         </div>
         </div>
-    <div class="col-lg-5 col-md-8 col-sm-12 col-xs-12"> 
-  <img src={bali} className='img-responsive img-fluid center-block' alt="Logo"/>
+    <div class="col-lg-4 col-md-8 col-sm-12 col-xs-12"> 
+  <img src={bali} className='img-responsive img-fluid center-block pad' alt="Logo"/>
   </div>
   <div class="col-lg-2"> 
   </div>
-  
 </div>
-   
   </div>
+  <br/>
+  <div class="container">
+    <div class="row">
+    <div class="col-lg-2"> 
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6"> 
+  <img src={bizone} className='img-responsive img-fluid center-block' alt="Logo"/>
+  <p className='text-center'><em><strong>Inspiring destinations - creating memories</strong></em></p>
+  </div>
+    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6"> 
+  <img src={biztwo} className='img-responsive img-fluid center-block' alt="Logo"/>
+  <p className='text-center'><em><strong>The Aussie Bound LCL &amp; FCL Cargo Experts</strong></em></p>
+  </div>
+  <div class="col-lg-2"> 
+  </div>
+</div>
+  </div>
+
  <div className='container'>
   <br/>
  <hr/>

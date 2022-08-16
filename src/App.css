@@ -1,18 +1,30 @@
 .bg {
-  background-color: red;
+  background-color: rgba(109, 248, 206, 0.667);
+}
+
+/* .banner {
+  max-width: 100%;
+} */
+
+.hrlen {
+  max-width: 30%;
 }
 
 .header {
   padding-top: 2%;
-  color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 30px; font-weight: bold; line-height: 1; 
+  color: rgb(30, 119, 187); font-family: 'Helvetica Neue', sans-serif; font-size: 30px; font-weight: bold; line-height: 1;
+}
+
+.subbanner {
+  font-family: 'Helvetica Neue', sans-serif; font-size: 15px; line-height: 1.4;
 }
 
 .spanheader {
-  color: rgb(255, 134, 134); font-family: 'Helvetica Neue', sans-serif; font-size: 75px; font-weight: bold; line-height: 1; text-decoration: none !important;
+  color: rgb(250, 77, 77); font-family: 'Helvetica Neue', sans-serif; font-size: 30px; font-weight: bold; line-height: 1; text-decoration: none !important;
 }
 
 .maintext {
-  font-family: 'Helvetica Neue', sans-serif; font-size: 40px; font-weight: bold; padding-top: 25%; text-decoration-thickness: 2px; text-decoration: underline;
+  font-family: 'Helvetica Neue', sans-serif; font-size: 40px; font-weight: bold; padding-top: 10%; text-decoration-thickness: 2px; text-decoration: underline;
 }
 
 .img-responsive {
@@ -78,4 +90,12 @@
 
 .left {
   float: right;
+}
+
+.col-xs-4 {
+  max-width: 30% !important;
+}
+
+.col-xs-6 {
+  max-width: 50% !important;
 }
